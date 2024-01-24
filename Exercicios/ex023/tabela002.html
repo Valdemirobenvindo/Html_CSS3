@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>As 10 pronvíncias mais populares de Angola</caption>
+        <!-- thead cabeça da tabela -->
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <!-- tbody corpo da tabela -->
+        <tbody>
+            <tr>
+                <td>Luanda</td>
+                <td class="num">7.976.600</td>
+            </tr>
+            <tr>
+                <td>Huíla</td>
+                <td class="num">2.819.300</td>
+            </tr>
+            <tr>
+                <td>Benguela</td>
+                <td class="num">2.477.600</td>
+            </tr>
+            <tr>
+                <td>Huambo</td>
+                <td class="num">2.309.800</td>
+            </tr>
+            <tr>
+                <td>Cuanza Sul</td>
+                <td class="num">2.110.000</td>
+            </tr>
+            <tr>
+                <td>Uíge</td>
+                <td class="num">1.662.000</td>
+            </tr>
+            <tr>
+                <td>Bié</td>
+                <td class="num">1.654.700</td>
+            </tr>
+            <tr>
+                <td>Cunene</td>
+                <td class="num">1.121.700</td>
+            </tr>
+            <tr>
+                <td>Malange</td>
+                <td class="num">1.108.300</td>
+            </tr>
+            <tr>
+                <td>Lunda Norte</td>
+                <td class="num">972.200</td>
+            </tr>
+            
+        </tbody>
+
+        <!-- tfoot rodape da tabela  -->
+        <tfoot>
+            <tr>
+                <th>Total de abitantes</th>
+                <td class="num"><strong>20.443.972</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
+
